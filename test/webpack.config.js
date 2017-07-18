@@ -17,6 +17,13 @@ var devConfig = {
         loaders: [{
             test: /\.js$/,
             use: [
+
+                {
+                    loader: '../ifelse-node-trans-loader',
+                    options: {
+                        node: false
+                    }
+                },
                 {
                     loader: '../ifelse-loader',
                     options: {
