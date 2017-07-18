@@ -21,7 +21,7 @@ var devConfig = {
                 {
                     loader: '../ifelse-node-trans-loader',
                     options: {
-                        node: false
+                        node: true
                     }
                 },
                 {
